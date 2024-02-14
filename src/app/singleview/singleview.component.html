@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row py-5">
+        <div class="col-lg-6">
+            <img id="anim" [src]="singleAnimal.image" alt="" class="w-75">
+        </div>
+
+        <div class="col-lg-6">
+           <h1>{{singleAnimal.Name}}</h1>
+          <p>Scientificname:<span class="fst-italic"> {{singleAnimal.Scientificname}}</span></p>
+           <hr>
+           <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">{{singleAnimal.description}}</p>
+
+
+           
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Gestational Period</th>
+                <th scope="col">Hight</th>
+                <th scope="col">Lifespan</th>
+                <th scope="col">Speed</th>
+              </tr>
+            </thead>
+            <tbody >
+              
+                  <tr>
+                    <td>{{singleAnimal.Gestationperiod}}</td>
+                    <td>{{singleAnimal.Height}}</td>
+                    <td>{{singleAnimal.Lifespan}}</td>
+                    <td>@{{singleAnimal.Speed}}</td>
+                  </tr>
+             
+              
+            </tbody>
+          </table>
+
+    </div>
+</div>

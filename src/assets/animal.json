@@ -1,0 +1,104 @@
+{
+  "animals": [
+    {
+      "id":1,
+      "Name": "African rhinos",
+      "Scientificname": "Diceros bicornis",
+"image": "https://i.postimg.cc/8z9XWN6D/dreamstime-xxl-39302992-scaled.jpg",
+      "description": "The two African rhino species - black rhino and white rhino – have both increased in number in recent years thanks to successful conservation efforts, especially in South Africa. Indeed, the white rhino has been brought back from the brink of extinction. However, both species are again at risk due to a huge surge in poaching to meet demand for illegal rhino horn, primarily in Asia. Countries and conservationists are stepping up their efforts but record numbers of rhinos are currently being killed.",
+      "Gestationperiod": "15 - 16 months",
+      "Height": "1.4 - 1.7 m - tall at shoulder",
+      "Lifespan": "35 - 50 years",
+      "Speed": "55 km/h (Maximum, Running)"
+    },
+    {
+      "id":2,
+      "Name": "African Elephant",
+      "Scientificname": "Loxodonta",
+"image": "https://i.postimg.cc/sxspS0m3/istockphoto-479667835-612x612.jpg",
+      "description" : "African elephants are the largest animals walking the Earth. Their herds wander through 37 countries in Africa. They are easily recognized by their trunk that is used for communication and handling objects. And their large ears allow them to radiate excess heat. Upper incisor teeth develop into tusks in African elephants and grow throughout their lifetime. There are two species of African elephants—the savanna (or bush) elephant and the forest elephant. Savanna elephants are larger than forest elephants, and their tusks curve outwards. In addition to being smaller, forest elephants are darker and their tusks are straighter and point downward. There are also differences in the size and shape of the skull and skeleton between the two species. Forest elephants are uniquely adapted to the dense forest habitat of the Congo Basin, but are in sharp decline due to poaching for the international ivory trade and habitat loss and fragmentation. It is estimated that probably one-quarter to one-third of the total African elephant population is made up of forest elephants.",
+      "Gestationperiod": "African bush elephant: 22 months",
+      "Height": "African bush elephant: 3.2 m",
+      "Lifespan": "African bush elephant: 60 - 70 years, African forest elephant: 60 – 70 years",
+      "Speed": "African bush elephant: 40 km/h"
+    },
+{     
+       "id":3,
+      "Name": "Leopards",
+      "Scientificname": "Panthera pardus",
+"image": "https://i.postimg.cc/CLQpPyqr/pexels-satria-bagaskara-1642069.jpg",
+      "description" : "Leopards, including Snow Leopards, Clouded Leopards, Amur Leopards, and Spotted Leopards, are all under threat from poaching and illegal trade. Of these, the Snow Leopard Panthera uncia is one of the most vulnerable to extinction, with approximately only 4,000 left in the wild and a range that has been significantly eroded by human encroachment and climate change. Leopard skins and body parts continue to enter the illegal wildlife trade in Asia, where they are still prized as symbols of wealth and status as well as for use in various traditional remedies.",
+      "Gestationperiod": "90 - 105 days",
+      "Heght": "60 to 70 cm in shoulder height",
+      "Lifespan": "12 - 17 years",
+      "Speed": "58 km/h (Maximum, Running)"
+    },
+{
+      "id":4,
+      "Name": "pangolinss",
+      "Scientificname": "Pholidota",
+"image" :"https://i.postimg.cc/KcH3FGNQ/animal-pangolin-mammal-wildlife-wallpaper-preview.jpg",
+      "description" : "Made to endure astounding levels of poaching and illegal trade, pangolins are another wildlife victim of insatiable consumer demand from various Asian nations. There are eight species of pangolin, split evenly between Africa and Asia. They are shy, elusive and secretive mammals whose bodies are covered in hard, keratin scales. Recent years have seen an increase in the levels of national and international attention they are afforded but, given the legality of the pangolin market in China, reducing ingrained consumer demand is an ongoing conservation challenge. The vast majority of pangolins consumed in Asia are poached from Africa and all eight species are listed in Appendix I of CITES, prohibiting international trade.",
+      "Gestationperiod": "70 to 140 days",
+      "Height":  "30 to 90 cm long exclusive of the tail",
+      "Lifespan": "20 years",
+      "Speed": "5km per hour"
+    },
+
+{
+      "id":5,
+      "Name": "Hippopotamus",
+      "Scientificname": "Hippopotamus amphibius",
+"image" : "https://i.postimg.cc/P5Zj73hW/hippo.jpg",
+      "description" : "There are two species of hippos — the large/common hippo and the smaller relative, the pygmy hippo. Hippos are the third-largest living land mammal, after elephants and white rhinos. Despite their large and bulky appearance, they have adaptations to their semi-aquatic environments allowing them to move swiftly on both water and land. Their feet have four-webbed toes that splay out to distribute weight evenly and therefore adequately support them on land, and their short legs provide powerful propulsion through the water. The pygmy hippos digits are more spread out and have less webbing and, proportionally, their legs are longer relative to its body size. They both have skin tones of purple-gray or slate color, with brownish-pink coloring around their eyes and ears. They have very thick skin that is virtually hairless except for the thick bristle-like hair on their heads and tails. The outer layers of skin are quite thin, making them prone to wounds from fighting. Their flat, paddle-like tail is used to spread excrement, which marks territory borders and indicates status of an individual. Their powerful jaws are capable of opening up to 150 degrees revealing their enormous incisors.",
+      "Gestation period": "243 dayss",
+      "Height" : " 1.4 - 1.6 m (Male, At Shoulder), 1.3 - 1.4 m (Female, At Shoulder) ",
+      "Lifespan":  "40 - 50 years",
+      "Speed":  "30 km/h on land (19 mph)."
+    },
+{
+      "id":6,
+      "Name": "Mountain gorilla",
+      "Scientificname": "Gorilla Beringei ssp. Beringei",
+"image":"https://i.postimg.cc/qqW3JJRD/Small-WW1113632.jpg",
+      "description" : "This great ape is one of two subspecies of the eastern gorilla and one of the world's largest living primates. These apes have muscular arms, a massive chest, and broad hands and feet — and they have longer hair and shorter arms than their lowland cousins. Their thick black hair helps insulate them from cold weather.",
+      "Gestationperiod": "About 8.5 Months",
+      "Height":  "Fully erect males can reach 1.7 m (5 ft 7 in) in height ",
+      "Lifespan": " Generally unknown but data shows upto 40 tO 50 years",
+      "Speed":  "25 miles per hour"
+    },
+{"id":7,
+      "Name": "Bat-Eared Fox",
+      "Scientificname": "Otocyon megalotis",
+"image": "https://i.postimg.cc/TY46PyT3/animals-hero-bat-earedfox.jpg",
+      "description" : "As the name indicates, this fox has unusually enormous ears in proportion to its head, like those of many bats. Their bodies are generally yellow-brown with a pale throat and under parts. The outsides of the ears, the racoon-like “face-mask,” lower legs, feet, and tail tip are all black. Their legs are relatively short. Aside from their large ears, they are unique from other foxes by their teeth — they have more teeth than most placental mammals (46 to 50)",
+      "Gestation period": "60 to 70 days.",
+      "Height":   "12 to 16 inches (30 to 40 centimeters) at shoulder ",
+      "Lifespan": "up to 6 years in the wild, and up to 13 years in captivity.",
+      "Speed":  "60 kph (35mph)"
+    },
+{
+      "id":8,
+      "Name": "Bongo",
+      "Scientificname": "Tragelaphus eurycerus",
+"image": "https://i.postimg.cc/XJqzyLjG/bongo-2437869-1280-1.jpg",
+      "description" : "The bongo is a large forest-living antelope characterized by a striking reddish-brown coat with 10-15 vertical white stripes. They have a thin mane running along their back. The two sub-species are the Lowland bongo (the Western bongo) and the Mountain bongo (the Eastern bongo). A bongo has white marks on its cheeks, a white stripe between its eyes and nose, with a white crescent on its chest. Its legs have black white bands and its long tail ends in a tuft. It has large ears and its tongue is long and prehensile. The horns spiral into one or one-and-half twists, with males' horns being longer with more of a twist.",
+      "Gestationperiod": "285 days.",
+      "Height":  " 3.5 to 4.5 ft (1-1.4m) high at the shoulder",
+      "Lifespan": "males possibly live up to 9 years in the wild and females 12 years .",
+      "Speed":  "43 mph"
+    },
+{
+      "id":9,
+      "Name": "Bat",
+      "Scientificname": "Chiroptera",
+"image":"https://i.postimg.cc/dVkQGb6v/vecteezy-product-shots-of-bat-high-quality-4k-ultra-hd-hd-30675849.jpg",
+      "description" : "After rodents, they are the most numerous mammals on earth. African bats fall into two major categories: large fruit bats and smaller, insect-eating bats, neither of which attacks people. In addition to a difference in size between the two types, there is a great variation in the extent and details of the wings, which are formed by the naked membrane of skin that extends from the neck to the wrist and between the fingers, and finally to the tail. Wing shapes vary from species to species. Usually, the swift fliers have long, narrow wings while the slow fliers have broad, rounded ones. The bones of the hand that support the wing membrane are unusually long. The hind legs are rotated 180 degrees at the hip joint, so the knee flexes backward rather than forward. This arrangement does not hamper the bat when it is perched but rather helps it push off from the roost for a quick getaway. They are very agile even on land, scuttling quickly over objects and squeezing their bodies through small openings.",
+      "Gestationperiod":" Average 9 Months.",
+      "Height":   "Body lengths of 3 to 6 inches on average and wingspans ranging from 8 to 16 inches.",
+      "Lifespan": "15 Years in wild",
+      "Speed": " Up to 160 kilometers (99.42 miles) per hour in level flight."
+    }
+ 
+  ]
+}

@@ -1,0 +1,189 @@
+<div class="home">
+
+        <div class="row pt-5 pb-3">
+            <div class="col text-light">
+                <div class="heading mt-5 p-5">
+                    <h1 class="pt-4" id="get">GET READY FOR AN EXPERIENCE <br> YOU’LL ALWAYS REMEMBER!</h1>
+                    <p class="w-75"> {{data}} </p>
+                    <button type="button" class="btn btn-success mt-4 mb-5" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Get a Quote</button>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+   
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Get a Quote</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Name" aria-describedby="emailHelp">
+                  </div>
+                <div class="mb-3">
+                  <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <input type="text" placeholder="Phone Number" class="form-control" >
+                </div>
+                
+                <button type="submit" class="btn btn-success">Request a Quote</button>
+              </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div id="wel" class="bg-black">
+    <div class="row ">
+        <div class="col-lg-2"></div>
+        <div class="col text-center text-light p-5 ">
+            <h4>WELCOME TO <span class="text-success">JUMPYJUNGLE WILDLIFE PARK</span></h4>
+            <h5 class="py-2" id="jumpy">BASED IN SOUTH YORKSHIRE, ON THE OUTSKIRTS OF DONCASTER, JUMBYJUNGLE WILDLIFE PARK IS A WALK
+                THROUGH
+                ANIMAL ADVENTURE WITH CONSERVATION AT ITS HEART! 💚</h5>
+            <h6 class="pb-2">COME FOR THE ADVENTURE, STAY FOR THE WILD MEMORIES!</h6>
+        </div>
+        <div class="col-lg-2"></div>
+
+    </div>
+</div>
+
+
+<div class=" " id="sp">
+    <div class="row">
+        <div class="col p-5">
+
+            <div class="p-5 text-center">
+                <h1 class="text-light pt-5 pb-2">You Can Find All The Most Popular <span
+                        class="text-success">Species</span> </h1>
+                <p class="text-light pt-3">Living Treasures is a wild animal park that offers an up close, interactive,
+                    and educational experience With over 300 animals of 50 different species. The parks provide a unique
+                    interactive experience that allows visitors to get closer to the animals than ever before.With a
+                    wide range of domestic and exotics animals from all over the world, it's a great place for
+                    adventure, learning, and hours of family fun!</p>
+
+               
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="animals p-5 bg-black" id="animal">
+    <h1 class="text-light text-center">Meet our <span class="text-success">Animal</span> Residents</h1>
+
+    <p class="text-light pt-3 px-5">Howletts is home to over 390 animals, including Kent’s only giant anteaters, the
+        largest herd of African elephants in the UK, and more gorillas, leopards and monkeys than any zoo in the
+        county! Howletts offers a fun packed, wild day out for a great price.
+
+        There are so many rare and endangered animals waiting to meet you. With new babies arriving throughout the
+        year, there’s always something new to see.</p>
+
+
+    <div class="row justify-content-center">
+        <!-- serach bar -->
+
+        <div class="container w-50  mt-5 mb-5">
+            <label for="" class="d-flex border rouned shadow-lg">
+
+                <input [(ngModel)]="animalName" name="n1" id="n1" [placeholder]="placeholderData" type="text"
+                    class="form-control">
+
+                
+
+
+            </label>
+            <!-- <Button (click)="method1()" class="mt-5 bg-danger mb-5 ">Click</Button> -->
+
+        </div>
+
+        <div class="container">
+            <div class="row p-5">
+    
+                <div *ngFor="let i of animalList | search : animalName : 'Name' " id="anim"
+                    class="card col-lg-3 col-md-6 m-4" style="width: 19rem;">
+    
+                    <a routerLink="single/{{i.id}}"><img [src]="i.image" class="card-img-top p-2" alt="..." height="230">
+                    </a>
+    
+                    <div class="card-body">
+                        <h5 class="card-title text-center">{{i.Name}}</h5>
+                        <p class="text-center">Scientific name: {{i.Scientificname}}</p>
+                    </div>
+                </div>
+    
+        </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="book ">
+
+
+    <div class="text-center text-light fw-bolder p-5">
+        <h1>COME ON, <br> GET CLOSURE!</h1>
+        <h3>GET READY FOR YOUR WILD ADVENTURE</h3>
+        <button type="button" class="btn btn-outline-success my-3">Contact us Today</button>
+    </div>
+</div>
+<div class="gallery bg-black p-5" id="gallery">
+
+    <h1 class="text-light fw-bolder text-center pt-3">Gallery </h1>
+    <div class="">
+        <div class="rows px-4 py-5">
+            <div class="column">
+                <img src="https://i.postimg.cc/Df1krNnY/pexels-sandy-torchon-3973557.jpg">
+                <img src="https://i.postimg.cc/W4VXP5Qt/pexels-mododeolhar-5250367.jpg">
+                <img src="https://i.postimg.cc/NjDr5bKK/pexels-simon-rizzi-1904354.jpg">
+
+
+            </div>
+            <div class="column">
+                <img src="https://i.postimg.cc/RCPrW08R/pexels-antony-trivet-6057225.jpg">
+                <img src="https://i.postimg.cc/mZ1qgSYb/pexels-zoosnow-1680214.jpg">
+                <img src="https://i.postimg.cc/25mm4KxF/pexels-rachel-claire-4577497.jpg">
+
+            </div>
+            <div class="column">
+                <img src="https://i.postimg.cc/MHh5BZTp/pexels-lexo-salazar-2092041.jpg">
+                <img src="https://i.postimg.cc/L4bgV0VL/pexels-djo-hm-2904176.jpg">
+                <img src="https://i.postimg.cc/qqwhpGFr/pexels-ivan-cujic-2265247.jpg">
+
+            </div>
+            <div class="column">
+                <img src="https://i.postimg.cc/9F16qQnb/pexels-aleksey-kuprikov-3493731.jpg">
+                <img src="https://i.postimg.cc/9FTT4GqG/pexels-pixabay-357209.jpg">
+                <img src="https://i.postimg.cc/6pMdwBvS/pexels-ryutaro-tsukata-6249443.jpg">
+
+            </div>
+        </div>
+    </div>
+</div>
